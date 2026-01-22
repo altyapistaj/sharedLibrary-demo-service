@@ -5,6 +5,7 @@ def call(String JOB_NAME){
             branch : "library-dependency",
             pom : 'pom.xml',
 
+            organizationName : "altyapistaj",
 
             customWorkspace : "/",
             gitAdressAndName : JOB_NAME.tokenize('/')[1]
