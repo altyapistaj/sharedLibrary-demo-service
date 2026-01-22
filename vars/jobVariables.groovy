@@ -7,7 +7,6 @@ def call(String JOB_NAME){
 
             organizationName : "altyapistaj",
 
-            customWorkspace : "/",
             gitAdressAndName : JOB_NAME.tokenize('/')[1]
     ]
 
